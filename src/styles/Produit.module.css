@@ -1,0 +1,81 @@
+.btncontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn1 {
+  font-size: 18px;
+  color: white;
+  background-color: #00bfa6;
+  border-radius: 9999px;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn1::before {
+  content: "";
+  width: 30px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  top: -50px;
+  right: 150%;
+  transform: rotate(45deg);
+}
+
+.btn1:hover {
+  background-color: #04cfb4;
+  cursor: pointer;
+}
+
+.btn1:hover::before {
+  content: "";
+  width: 30px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  top: -50px;
+  right: -35px;
+  transform: rotate(45deg);
+  transition-duration: 1s;
+}
+
+.btn2 {
+  font-size: 14px;
+  color: #00bfa6;
+  background-color: white;
+  border: solid 1px #00bfa6;
+  border-radius: 9999px;
+  padding: 10px 20px;
+  transition-duration: 0.3s;
+  width: 100%;
+}
+
+.btn2:hover {
+  color: white;
+  background-color: #00bfa6;
+  transition-duration: 0.3s;
+}
+
+.ajoute {
+  position: sticky;
+  top: 85%;
+  z-index: 1000;
+  display: none;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 50px;
+  opacity: 0;
+  transition-duration: 0.2s;
+}
+
+.ajoute div {
+  background-color: #2a799e;
+  border: 1px solid #1e5772;
+  color: white;
+  padding: 10px 30px;
+}

@@ -1,0 +1,401 @@
+.main{
+    position: relative;
+    background:linear-gradient(to left , #55C597,#369E9F);
+    padding-top: 200px;
+
+}
+.custom-shape-divider-top-1651879645 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    
+    
+}
+
+.custom-shape-divider-top-1651879645 svg {
+    position: relative;
+    display: block;
+    width: calc(205% + 1.3px);
+    height: 320px;
+    
+
+}
+
+.custom-shape-divider-top-1651879645 .shape-fill {
+  fill: #ffffff;
+}
+.iheb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left :100px;
+    
+
+}
+.rami{
+    margin-left: 250px;
+    margin-top: 40px;
+    
+}
+.container1{
+    height:34px;
+    width: 177px;
+    border-radius: 9px;
+    margin-right: 5px;
+    border:none;
+    position: relative;
+    z-index: 10;
+    padding-left: 10px;
+    
+
+    
+    
+}
+.container1:focus{
+    outline:none;
+}
+.container2:focus{
+    outline:none;
+}
+.container3:focus{
+    outline:none;
+}
+.container4:focus{
+    outline:none;
+}
+.container5:focus{
+    outline:none;
+}
+.container2{
+    height: 34px;
+    width: 338px;
+    border-radius: 9px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border:none;
+    position: relative;
+    z-index: 10;
+    padding-left: 10px;
+    
+}
+.container3{
+    height:35px;
+    width: 529px;
+    border-radius: 9px;
+    margin-bottom: 5px;
+    border:none;
+    position: relative;
+    z-index: 10;
+    padding-left: 10px;
+    
+    
+}
+.container4{
+    height:120px;
+    width: 529px;
+    border-radius: 9px;
+    margin-bottom: 5px;
+    border:none;
+    resize: none;
+    position: relative;
+    z-index: 10;
+    padding-left: 10px;
+    padding-top: 5px;
+    
+}
+.container5{
+    height:33px;
+    width: 149px;
+    border-radius: 9px;
+    margin-left:380px;
+    margin-bottom: 5px;
+    background-color: #1E5D75;
+    color: white;
+    border:none;
+    
+    
+}
+.container5:hover {
+  color: #225276;
+  border: 2px solid #225276;
+  background-color: white;
+  cursor: pointer;
+  transition-duration: 0.8s;
+  transform: scale(0.9);
+}
+.p{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.co{
+    font-size: 37px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+.zied{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+    
+
+
+   
+
+}
+
+.eya{
+    
+    color: #FFFFFF;
+    
+   font-size: 18px;
+    
+    margin-top: 35px;
+}
+
+.espace{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.contact{
+    color:white;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.p {
+ font-size: 18px;
+ margin-left: 40px;
+ margin-top: 35px;
+}
+ 
+
+.amine {
+  margin-left: 40px;
+}
+.espace {
+  margin-left: 20px;
+}
+
+
+.brands{
+    margin-left:20px;
+
+}
+.brands:hover{
+    
+    border: 2px solid #225276;
+    
+    cursor: pointer;
+    transition-duration: .8s;
+    transform: scale(.9);
+
+}
+.love{
+    margin-top: 30px;
+    color: white;
+    margin-left: 70px;
+}
+@media(max-width:767px){
+    .zied {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        
+        
+       
+        
+    }
+}
+
+
+.jesser{
+    padding-left: 100px;
+    
+}
+@media(max-width:1300px) {
+    .rami{
+        
+       
+       
+        padding-left: 150px;
+        padding-right: 250px;
+       
+        
+  
+      }
+    }
+
+@media(max-width:1300px) {
+    .container1{
+        
+       
+       
+        width: 140px;
+       
+        
+  
+      }
+    }
+    @media(max-width:1300px) {
+        .container2{
+            
+           
+           
+            width: 210px;
+           
+            
+      
+          }
+        }
+        @media(max-width:1300px) {
+            .container3{
+                
+               
+               
+                width: 360px;
+               
+                
+          
+              }
+            }
+            @media(max-width:1300px) {
+                .container4{
+                    
+                   
+                   
+                    width: 360px;
+                   
+                    
+              
+                  }
+                }
+                @media(max-width:1300px) {
+                    .container5{
+                       margin-left: 100px;
+                        
+                       
+                       
+                        
+                       
+                        
+                  
+                      }
+                    }
+@media(max-width:1300px) {
+    .jesser{
+        
+       
+       
+        padding-left: 150px;
+       
+        
+  
+      }
+    }
+
+    @media(max-width:1100px) {
+        .iheb{
+            
+           
+           
+            padding-left: 20px;
+            padding-left: 20px;
+           
+            
+      
+          }
+        }
+        
+@media(max-width:1100px) {
+    .container1{
+        
+       
+       
+        width: 100px;
+       
+        
+  
+      }
+    }
+    @media(max-width:1100px) {
+        .container2{
+            
+           
+           
+            width: 150px;
+           
+            
+      
+          }
+        }
+        @media(max-width:1100px) {
+            .container3{
+                
+               
+               
+                width: 270px;
+               
+                
+          
+              }
+            }
+            @media(max-width:1100px) {
+                .container4{
+                    
+                   
+                   
+                    width: 270px;
+                   
+                    
+              
+                  }
+                }
+                @media(max-width:1100px) {
+                    .container5{
+                       margin-left: 100px;
+                        
+                       
+                       
+                        
+                       
+                        
+                  
+                      }
+                    }
+                    @media(max-width:950px) {
+                        .iheb {
+                            flex-wrap: wrap;
+                            
+                           padding-left: 2px;
+                           padding-right: 250px;
+                           
+                            
+                           
+                             }
+                            }
+        
+                            @media(max-width:950px) {
+                                .container5 {
+                                    
+                                    
+                                  margin-right: 80px;
+                            
+                                    
+                                   
+                                     }
+                                    }
+                
+                
+    
+            
+      
+          
+
+ 

@@ -1,0 +1,81 @@
+.parent {
+  position: relative;
+}
+
+.container {
+  width: 100vw;
+  height: 300px;
+  background: linear-gradient(to right, #22b2bb, #93da9e);
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.text {
+  z-index: 10;
+  font-size: 48px;
+}
+
+#vector {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  z-index: 9;
+}
+
+@media (min-width: 576px) {
+  .container {
+    font-size: 32px;
+  }
+  #vector {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    z-index: 9;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    font-size: 36px;
+  }
+  #vector {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    z-index: 9;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 42px;
+  }
+  #vector {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    z-index: 9;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 48px;
+  }
+  #vector {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    z-index: 9;
+  }
+}

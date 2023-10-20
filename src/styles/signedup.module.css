@@ -1,0 +1,49 @@
+.SignedUpContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  margin: 10px auto;
+  width: 80%;
+  height: 500px;
+  max-width: 400px;
+  background: rgb(251, 251, 251);
+  border: 2px solid #55c597;
+  /* border: 2px solid #21aea6; */
+}
+
+.Message h4,
+.SignedUpContainer h3 {
+  text-align: center;
+}
+.Message h4 {
+  font-size: 50px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.SignedUpContainer h3 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.imgContainer {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #55c597;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgContainer img {
+  width: 80%;
+  height: 80%;
+}
+.btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background: linear-gradient(to left, #46eda7, #21aea6);
+  border: none;
+  color: white;
+}

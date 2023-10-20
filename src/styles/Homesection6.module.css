@@ -1,0 +1,117 @@
+.section6container {
+  margin-top: 80px;
+  margin-bottom: 150px;
+}
+
+.titlecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagescontainer {
+  top: 50px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.box {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 12px;
+  height: 340px;
+  width: 342px;
+  background: white;
+  border: 1px solid grey;
+  margin-top: 120px;
+  cursor: default;
+  transition: transform 0.3s;
+  box-shadow: 5px 5px 5px grey;
+  margin-left: 0px;
+}
+
+.box:hover {
+  transform: scale(1.03);
+  transition: transform 0.5s;
+}
+
+.image1 {
+  width: 130px;
+  height: 130px;
+  min-width: 130px;
+  min-height: 130px;
+  border-radius: 9999px;
+  object-fit: cover;
+  margin: auto;
+  position: absolute;
+  top: -90px;
+}
+
+.champs {
+  margin-top: 70px;
+  font-size: 20px;
+  font-family: poppins;
+  text-align: center;
+}
+
+.guillemets {
+  color: #51bf99;
+  width: 100px;
+  height: 100px;
+  font-size: 500px;
+  padding-left: 60px;
+}
+
+.commentaires {
+  color: black;
+  width: 300px;
+  height: 113px;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+.guillemet1 {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.guillemet2 {
+  padding-left: 290px;
+}
+
+@media screen and (max-width: 686px) {
+  .box {
+    height: 306px;
+    width: 307.8px;
+  }
+
+  .champs {
+    margin-top: 50px;
+    font-size: 18px;
+    padding: 5px 80px;
+  }
+
+  .guillemets {
+    width: 90px;
+    height: 90px;
+    font-size: 450px;
+    padding-left: 54px;
+  }
+
+  .guillemet1 {
+    padding-left: 18px;
+    padding-top: 9px;
+  }
+  .guillemet2 {
+    padding-left: 261px;
+  }
+}

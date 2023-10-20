@@ -1,0 +1,188 @@
+.container {
+  align-items: center;
+  justify-content: center;
+  margin: 50px 20px;
+  padding: 10px;
+  display: flex;
+  gap: 80px;
+  margin-bottom: 130px;
+  flex-wrap: wrap-reverse;
+}
+
+.search-box {
+  gap: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 440px;
+  height: 50px;
+  background-color: #21ae95;
+  border-radius: 99999px;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: NONE;
+  width: 300px;
+  height: 32px;
+  background-color: white;
+  border-radius: 25px;
+  padding-left: 10px;
+}
+
+.input input {
+  margin-left: 8px;
+  width: 250px;
+  border: none;
+}
+
+.input input:focus {
+  outline: none;
+}
+
+.btn {
+  background-color: #1e5772;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 9999px;
+  width: 109px;
+  height: 32px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: semibold;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn::before {
+  content: "";
+  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  top: -50px;
+  right: 150%;
+  transform: rotate(45deg);
+}
+
+.btn:hover {
+  background-color: #2a799e;
+  cursor: pointer;
+}
+
+.btn:hover::before {
+  content: "";
+  width: 30px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  top: -50px;
+  right: -35px;
+  transform: rotate(45deg);
+  transition-duration: 0.8s;
+}
+
+.text_1 {
+  font-size: 40px;
+  color: #193863;
+  font-weight: bold;
+  margin-left: 122.28px;
+  width: 402px;
+  height: 147px;
+  line-height: 50px;
+}
+
+.text_2 {
+  font-size: 16px;
+  color: #21aea6;
+  font-weight: semibold;
+  margin-left: 122.28px;
+  width: 408px;
+  height: 39px;
+}
+
+.rel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box img {
+  position: absolute;
+  top: -75px;
+  left: 0px;
+}
+
+.doctorsbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.doctors {
+  max-width: 80%;
+}
+
+@media (max-width: 545px) {
+  .vector {
+    width: 333.75px;
+    height: 204px;
+  }
+  .text_1 {
+    font-size: 30px;
+    margin-left: 122.28px;
+    width: 250px;
+    height: 110.25px;
+    line-height: 37.5px;
+  }
+
+  .text_2 {
+    font-size: 12px;
+    margin-left: 122.28px;
+    width: 250px;
+    height: 29.25px;
+  }
+  .box img {
+    top: -57px;
+    left: 30px;
+  }
+
+  .search-box {
+    margin-left: 0px;
+    width: 330px;
+    height: 37.5px;
+    background-color: #21ae95;
+    border-radius: 99999px;
+    margin-top: 20px;
+  }
+  .input {
+    width: 225px;
+    height: 24px;
+    padding-left: 4px;
+  }
+
+  .input input {
+    margin-left: 4px;
+    width: 180px;
+  }
+
+  .btn {
+    width: 81.75px;
+    height: 24px;
+    font-size: 9.75px;
+  }
+
+  .btn:hover::before {
+    width: 22.5px;
+    height: 150px;
+  }
+}

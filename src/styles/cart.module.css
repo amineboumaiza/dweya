@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.item {
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid rgb(219, 219, 219);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete {
+  width: 30px;
+  height: 30px;
+  border-radius: 9999px;
+  color: white;
+  background-color: rgb(189, 15, 15);
+  text-align: center;
+  line-height: 30px;
+  user-select: none;
+}
+
+.delete:hover {
+  background-color: rgb(221, 23, 23);
+  cursor: pointer;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #21ae95;
+}
+
+@media (max-width: 500px) {
+  .item {
+    width: 100%;
+  }
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
